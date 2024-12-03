@@ -5,91 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e6c87c2-58b8-477b-8c51-9fe2e6ed6185" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/independent_test_set/y_new.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emnist/emnist-digits-test-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emnist/emnist-digits-test-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_Adam_lr0.0001_epochs10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_Adam_lr0.0001_epochs10.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_Adam_lr0.0001_epochs5.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_Adam_lr0.0001_epochs5.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_Adam_lr0.001_epochs10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_Adam_lr0.001_epochs10.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_Adam_lr0.001_epochs5.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_Adam_lr0.001_epochs5.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_Adam_lr0.01_epochs10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_Adam_lr0.01_epochs10.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_Adam_lr0.01_epochs5.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_Adam_lr0.01_epochs5.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_RMSprop_lr0.0001_epochs10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_RMSprop_lr0.0001_epochs10.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_RMSprop_lr0.0001_epochs5.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_RMSprop_lr0.0001_epochs5.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_RMSprop_lr0.001_epochs10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_RMSprop_lr0.001_epochs10.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_RMSprop_lr0.001_epochs5.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_RMSprop_lr0.001_epochs5.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_RMSprop_lr0.01_epochs10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_RMSprop_lr0.01_epochs10.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_RMSprop_lr0.01_epochs5.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_RMSprop_lr0.01_epochs5.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_SGD_lr0.0001_epochs10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_SGD_lr0.0001_epochs10.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_SGD_lr0.0001_epochs5.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_SGD_lr0.0001_epochs5.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_SGD_lr0.001_epochs10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_SGD_lr0.001_epochs10.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_SGD_lr0.001_epochs5.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_SGD_lr0.001_epochs5.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_SGD_lr0.01_epochs10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_SGD_lr0.01_epochs10.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet_SGD_lr0.01_epochs5.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/lenet_SGD_lr0.01_epochs5.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_Adam_lr0.0001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_Adam_lr0.0001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_Adam_lr0.0001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_Adam_lr0.0001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_Adam_lr0.001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_Adam_lr0.001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_Adam_lr0.001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_Adam_lr0.001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_Adam_lr0.01_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_Adam_lr0.01_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_Adam_lr0.01_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_Adam_lr0.01_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_RMSprop_lr0.0001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_RMSprop_lr0.0001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_RMSprop_lr0.0001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_RMSprop_lr0.0001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_RMSprop_lr0.001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_RMSprop_lr0.001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_RMSprop_lr0.001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_RMSprop_lr0.001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_RMSprop_lr0.01_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_RMSprop_lr0.01_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_RMSprop_lr0.01_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_RMSprop_lr0.01_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_SGD_lr0.0001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_SGD_lr0.0001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_SGD_lr0.0001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_SGD_lr0.0001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_SGD_lr0.001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_SGD_lr0.001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_SGD_lr0.001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_SGD_lr0.001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_SGD_lr0.01_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_SGD_lr0.01_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_SGD_lr0.01_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_SGD_lr0.01_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_Adam_lr0.0001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_Adam_lr0.0001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_Adam_lr0.0001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_Adam_lr0.0001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_Adam_lr0.001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_Adam_lr0.001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_Adam_lr0.001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_Adam_lr0.001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_Adam_lr0.01_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_Adam_lr0.01_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_Adam_lr0.01_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_Adam_lr0.01_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_RMSprop_lr0.0001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_RMSprop_lr0.0001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_RMSprop_lr0.0001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_RMSprop_lr0.0001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_RMSprop_lr0.001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_RMSprop_lr0.001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_RMSprop_lr0.001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_RMSprop_lr0.001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_RMSprop_lr0.01_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_RMSprop_lr0.01_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_RMSprop_lr0.01_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_RMSprop_lr0.01_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_SGD_lr0.0001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_SGD_lr0.0001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_SGD_lr0.0001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_SGD_lr0.0001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_SGD_lr0.001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_SGD_lr0.001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_SGD_lr0.001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_SGD_lr0.001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_SGD_lr0.01_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_SGD_lr0.01_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/confusion_matrix_lenet_SGD_lr0.01_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/confusion_matrix_lenet_SGD_lr0.01_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/evaluation_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/plots/evaluation_results.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/results_summary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/plots/results_summary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_Adam_lr0.0001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_Adam_lr0.0001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_Adam_lr0.0001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_Adam_lr0.0001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_Adam_lr0.001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_Adam_lr0.001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_Adam_lr0.001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_Adam_lr0.001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_Adam_lr0.01_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_Adam_lr0.01_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_Adam_lr0.01_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_Adam_lr0.01_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_RMSprop_lr0.0001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_RMSprop_lr0.0001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_RMSprop_lr0.0001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_RMSprop_lr0.0001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_RMSprop_lr0.001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_RMSprop_lr0.001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_RMSprop_lr0.001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_RMSprop_lr0.001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_RMSprop_lr0.01_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_RMSprop_lr0.01_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_RMSprop_lr0.01_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_RMSprop_lr0.01_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_SGD_lr0.0001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_SGD_lr0.0001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_SGD_lr0.0001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_SGD_lr0.0001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_SGD_lr0.001_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_SGD_lr0.001_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_SGD_lr0.001_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_SGD_lr0.001_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_SGD_lr0.01_epochs10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_SGD_lr0.01_epochs10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/training_plot_SGD_lr0.01_epochs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/training_plot_SGD_lr0.01_epochs5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeNetModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeNetModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/draw_and_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/draw_and_predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model_evaluator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_evaluator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/process_emnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/process_emnist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +107,7 @@
       <workItem from="1731944071767" duration="8976000" />
       <workItem from="1732542630657" duration="37307000" />
       <workItem from="1733096510658" duration="2054000" />
-      <workItem from="1733098627241" duration="18131000" />
+      <workItem from="1733098627241" duration="18970000" />
     </task>
     <servers />
   </component>
