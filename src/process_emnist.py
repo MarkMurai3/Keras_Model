@@ -1,6 +1,7 @@
 import os
 import numpy as np
 from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
 
 # Paths to the EMNIST dataset files
 images_path = "emnist/emnist-digits-test-images-idx3-ubyte"
@@ -28,16 +29,32 @@ def load_emnist_labels(labels_path):
         labels = np.frombuffer(f.read(), dtype=np.uint8)
     return labels
 
+def transform_images(images):
+    """Mirror and rotate images to the left by 90 degrees."""
+    transformed_images = []
+    for image in images:
+        # Reshape image for transformation
+        image = image.reshape(28, 28)
+        # Mirror the image
+        mirrored_image = np.fliplr(image)
+        # Rotate the image 90 degrees to the left
+        rotated_image = np.rot90(mirrored_image)
+        # Append the transformed image
+        transformed_images.append(rotated_image.reshape(28, 28, 1))
+    return np.array(transformed_images)
+
 # Load the EMNIST dataset
 x_emnist = load_emnist_images(images_path)
 y_emnist = load_emnist_labels(labels_path)
+
+# Transform the images
+x_emnist = transform_images(x_emnist)
 
 # Debugging: Check EMNIST normalization and label range
 print(f"EMNIST max pixel value: {x_emnist.max()}, min pixel value: {x_emnist.min()}")
 print(f"EMNIST unique labels: {np.unique(y_emnist)}")
 
-# Visualize some EMNIST samples
-import matplotlib.pyplot as plt
+# Visualize some transformed EMNIST samples
 for i in range(5):
     plt.imshow(x_emnist[i].reshape(28, 28), cmap='gray')
     plt.title(f"Label: {y_emnist[i]}")
@@ -55,4 +72,4 @@ np.save(os.path.join(output_dir, "y_train_emnist.npy"), y_train_emnist)
 np.save(os.path.join(output_dir, "x_test_emnist.npy"), x_test_emnist)
 np.save(os.path.join(output_dir, "y_test_emnist.npy"), y_test_emnist)
 
-print(f"EMNIST dataset split and saved to {output_dir}")
+print(f"EMNIST dataset split, transformed, and saved to {output_dir}")

@@ -16,8 +16,8 @@ RESULTS_CSV = os.path.join(PLOTS_DIR, "evaluation_results.csv")
 os.makedirs(PLOTS_DIR, exist_ok=True)
 
 def load_emnist_test_set():
-    x_test_emnist = np.load(os.path.join(INDEPENDENT_DATASET_PATH, "x_new.npy"))
-    y_test_emnist = np.load(os.path.join(INDEPENDENT_DATASET_PATH, "y_new.npy"))
+    x_test_emnist = np.load(os.path.join(INDEPENDENT_DATASET_PATH, "x_test_emnist.npy"))
+    y_test_emnist = np.load(os.path.join(INDEPENDENT_DATASET_PATH, "y_test_emnist.npy"))
     return x_test_emnist, y_test_emnist
 
 def evaluate_models():
@@ -54,6 +54,19 @@ def evaluate_models():
             plt.close()
 
             print(f"Confusion matrix saved to {cm_plot_path}")
+
+    # Add this at the end of evaluate_models() in model_evaluator.py
+    if results:
+        best_model = max(results, key=lambda x: x['Accuracy'])
+        best_model_name = best_model["Model Name"]
+        best_model_path = os.path.join(MODEL_DIR, best_model_name)
+
+        # Save the best model name to a file
+        best_model_file = os.path.join(MODEL_DIR, "best_model.txt")
+        with open(best_model_file, "w") as f:
+            f.write(best_model_path)
+
+        print(f"Best model saved to {best_model_file}")
 
     # Save results
     results_df = pd.DataFrame(results)

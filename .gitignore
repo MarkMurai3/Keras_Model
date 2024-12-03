@@ -1,0 +1,16 @@
+# Ignore virtual environments
+.venv/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore large files (e.g., .npy, .h5 files in specific folders)
+data/*.npy
+models/*.h5
+
+# Ignore everything in the models folder
+models/
+
+# Ignore everything in the plots folder
+plots/

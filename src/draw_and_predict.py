@@ -1,7 +1,9 @@
+import os
 import tkinter as tk
 import numpy as np
 from PIL import Image, ImageDraw
 from tensorflow.keras.models import load_model
+
 
 class DrawingApp:
     def __init__(self, root, model_path):
@@ -30,9 +32,7 @@ class DrawingApp:
     def paint(self, event):
         """Draw on the canvas and update the internal image."""
         x, y = event.x, event.y
-        # Draw a circle on the canvas
         self.canvas.create_oval(x, y, x + 10, y + 10, fill="black", width=0)
-        # Draw on the PIL image (scaled down for 28x28)
         scaled_x, scaled_y = x // 10, y // 10
         self.draw.ellipse([scaled_x, scaled_y, scaled_x + 1, scaled_y + 1], fill="white")
 
@@ -44,11 +44,9 @@ class DrawingApp:
 
     def predict_digit(self):
         """Predict the digit based on the drawing."""
-        # Convert the image to a NumPy array
         img_array = np.array(self.image) / 255.0  # Normalize pixel values
         img_array = img_array.reshape(1, 28, 28, 1)  # Reshape for the model
 
-        # Predict using the trained model
         prediction = self.model.predict(img_array)
         predicted_label = np.argmax(prediction)
 
@@ -58,10 +56,15 @@ class DrawingApp:
         result_label = tk.Label(result_window, text=f"Predicted Digit: {predicted_label}", font=("Arial", 24))
         result_label.pack(padx=20, pady=20)
 
-# Main function to run the app
+
 if __name__ == "__main__":
-    # Load the best model
-    model_path = "models/lenet_Adam_lr0.001_epochs10.h5"
+    # Read the best model path from the file
+    best_model_file = os.path.join("models", "best_model.txt")
+    if not os.path.exists(best_model_file):
+        raise FileNotFoundError("Best model file not found. Run model_evaluator.py first.")
+
+    with open(best_model_file, "r") as f:
+        model_path = f.read().strip()
 
     # Create the Tkinter window
     root = tk.Tk()
