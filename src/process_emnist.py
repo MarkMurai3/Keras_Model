@@ -55,11 +55,11 @@ print(f"EMNIST max pixel value: {x_emnist.max()}, min pixel value: {x_emnist.min
 print(f"EMNIST unique labels: {np.unique(y_emnist)}")
 
 # Visualize some transformed EMNIST samples
-for i in range(5):
-    plt.imshow(x_emnist[i].reshape(28, 28), cmap='gray')
-    plt.title(f"Label: {y_emnist[i]}")
-    plt.axis('off')
-    plt.show()
+# for i in range(5):
+#     plt.imshow(x_emnist[i].reshape(28, 28), cmap='gray')
+#     plt.title(f"Label: {y_emnist[i]}")
+#     plt.axis('off')
+#     plt.show()
 
 # Split into training and test sets
 x_train_emnist, x_test_emnist, y_train_emnist, y_test_emnist = train_test_split(

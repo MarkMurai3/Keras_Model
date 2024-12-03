@@ -1,11 +1,6 @@
-import os
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Conv2D, AveragePooling2D, Flatten, Dense
 from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.callbacks import History
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
 from src.BaseModel import BaseModel
 
 class LeNetModel(BaseModel):
@@ -13,6 +8,60 @@ class LeNetModel(BaseModel):
         self.__input_shape = input_shape
         self.__num_classes = num_classes
         self.model = None
+        self.memory = None  # Simulating dynamic memory allocation
+        print(f"LeNetModel created with input shape: {self.__input_shape} and num classes: {self.__num_classes}")
+
+    def __del__(self):
+        print(f"LeNetModel with input shape: {self.__input_shape} and num classes: {self.__num_classes} is being destroyed")
+
+    def allocate_memory(self, size):
+        """Simulate dynamic memory allocation."""
+        self.memory = [0] * size  # Allocate a list of the given size
+        print(f"Allocated memory of size {size}")
+
+    def free_memory(self):
+        """Simulate freeing allocated memory."""
+        self.memory = None
+        print("Memory freed")
+
+    @property
+    def input_shape(self):
+        return self.__input_shape
+
+    @input_shape.setter
+    def input_shape(self, value):
+        if not isinstance(value, tuple):
+            raise ValueError("Input shape must be a tuple")
+        self.__input_shape = value
+
+    @property
+    def num_classes(self):
+        return self.__num_classes
+
+    @num_classes.setter
+    def num_classes(self, value):
+        if not isinstance(value, int) or value <= 0:
+            raise ValueError("Number of classes must be a positive integer")
+        self.__num_classes = value
+
+    @classmethod
+    def from_dict(cls, config):
+        """Conversion constructor: Create an instance from a dictionary."""
+        input_shape = config.get("input_shape", (28, 28, 1))
+        num_classes = config.get("num_classes", 10)
+        return cls(input_shape, num_classes)
+
+    def copy(self):
+        """Copy constructor: Create a duplicate of the current instance."""
+        return LeNetModel(self.__input_shape, self.__num_classes)
+
+    @staticmethod
+    def cast_to_lenet_model(obj):
+        """Dynamic casting: Validate and cast an object to LeNetModel."""
+        if isinstance(obj, LeNetModel):
+            return obj
+        else:
+            raise TypeError("Cannot cast object to LeNetModel. Object is not of the correct type.")
 
     def build_model(self):
         input_layer = Input(shape=self.__input_shape)
@@ -36,6 +85,7 @@ class LeNetModel(BaseModel):
         )
 
         # Plot training results
+        import matplotlib.pyplot as plt
         plt.plot(history.history['accuracy'], label='Training Accuracy')
         plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
         plt.title('Training and Validation Accuracy')

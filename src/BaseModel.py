@@ -20,3 +20,10 @@ class BaseModel(ABC):
     @abstractmethod
     def save_model(self, filepath):
         pass
+
+    @staticmethod
+    def dynamic_cast(obj, target_class):
+        if isinstance(obj, target_class):
+            return obj
+        else:
+            raise TypeError(f"Cannot cast object to {target_class.__name__}. Object is not of the correct type.")
