@@ -1,16 +1,28 @@
-# Ignore virtual environments
-.venv/
-
-# Ignore compiled Python files
-*.pyc
+# Python
 __pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
 
-# Ignore large files (e.g., .npy, .h5 files in specific folders)
-data/*.npy
-models/*.h5
+# Data files
+*.npy
+*.csv
+*.h5
+*.zip
+*.tar.gz
 
-# Ignore everything in the models folder
+# Directories
+data/
 models/
-
-# Ignore everything in the plots folder
 plots/
+
+# OS-specific
+.DS_Store
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+.env/
