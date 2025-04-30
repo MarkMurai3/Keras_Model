@@ -1,3 +1,6 @@
+import sys
+sys.modules['tkinter'] = None
+
 import os
 import tkinter as tk
 import numpy as np
