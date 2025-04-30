@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e6c87c2-58b8-477b-8c51-9fe2e6ed6185" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MLPModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SimpleCNNModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeNetModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeNetModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/draw_and_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/draw_and_predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fine_tune.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fine_tune.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="6e6c87c2-58b8-477b-8c51-9fe2e6ed6185" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +112,7 @@
       <workItem from="1741169128027" duration="2692000" />
       <workItem from="1741795552487" duration="3125000" />
       <workItem from="1746032806757" duration="8475000" />
-      <workItem from="1746050114471" duration="1851000" />
+      <workItem from="1746050114471" duration="2157000" />
     </task>
     <servers />
   </component>
