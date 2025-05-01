@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e6c87c2-58b8-477b-8c51-9fe2e6ed6185" name="Changes" comment="&quot;Add SimpleCNNModel and MLPModel, update gitignore&quot;">
-      <change afterPath="$PROJECT_DIR$/src/DropoutMLPModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiniVGGModel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/draw_and_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/draw_and_predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +131,7 @@
       <workItem from="1746032806757" duration="8475000" />
       <workItem from="1746050114471" duration="2157000" />
       <workItem from="1746108849983" duration="1444000" />
-      <workItem from="1746111239050" duration="1650000" />
+      <workItem from="1746111239050" duration="1988000" />
     </task>
     <servers />
   </component>
